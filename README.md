@@ -56,15 +56,17 @@ A funcionalidade principal do aplicativo é receber um arquivo HTML como entrada
    ```
 
 ## SOBRE O EXECUTAVEL:
-- Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, digitar o seguinte comando em `./CODIGO`:
-   ```bash
-   generatorPDF
-   ```
+### 1. EXECUTANDO:
+   - Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, digitar o seguinte comando em `./CODIGO`:
+      ```bash
+      generatorPDF
+      ```
 
-- O executável é bastante útil caso o GO não esteja instalado. Trata-se da mesma aplicação do arquivo `main.go`. Se desejar, você pode recompilá-lo novamente com:
-   ```bash
-   go build
-   ```
+### 2. GERANDO:
+   - O executável é bastante útil caso o GO não esteja instalado. Trata-se da mesma aplicação do arquivo `main.go`. Se desejar, você pode recompilá-lo novamente com:
+      ```bash
+      go build
+      ```
 
 ## BIBLIOTECAS USADAS:
 - [UUID](https://github.com/google/uuid): Uma biblioteca para geração de identificadores únicos universais (UUID) em Go.
@@ -74,7 +76,6 @@ A funcionalidade principal do aplicativo é receber um arquivo HTML como entrada
 - Entendemos que para manipular arquivos em muitas linguagens e tecnologias, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
 * [CURSO DE GOLANG](https://github.com/VILHALVA/CURSO-DE-GOLANG)
 * [CURSO DE HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
-* [CURSO DE EXE](https://github.com/VILHALVA/CURSO-DE-EXE)
 * [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
 
 ## CREDITOS:
