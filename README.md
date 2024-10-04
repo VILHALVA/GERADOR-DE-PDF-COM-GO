@@ -54,20 +54,7 @@ A funcionalidade principal do aplicativo é receber um arquivo HTML como entrada
    <h2>NOME: {{.Name}}</h2>
    </body>
    ```
-
-## SOBRE O EXECUTAVEL:
-### 1. EXECUTANDO:
-   - Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, digitar o seguinte comando em `./CODIGO`:
-      ```bash
-      generatorPDF
-      ```
-
-### 2. GERANDO:
-   - O executável é bastante útil caso o GO não esteja instalado. Trata-se da mesma aplicação do arquivo `main.go`. Se desejar, você pode recompilá-lo novamente com:
-      ```bash
-      go build
-      ```
-
+   
 ## BIBLIOTECAS USADAS:
 - [UUID](https://github.com/google/uuid): Uma biblioteca para geração de identificadores únicos universais (UUID) em Go.
 - [GO-WKHTMLTOPDF](https://github.com/SebastiaanKlippert/go-wkhtmltopdf): Uma interface em Go para a ferramenta `wkhtmltopdf`, que permite a conversão de arquivos HTML para PDF.
